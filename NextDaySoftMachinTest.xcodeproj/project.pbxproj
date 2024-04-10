@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1535FCED7F860CB7D0A9A4 /* Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFED6D737FC263FFF33FFB8 /* Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests.framework */; };
+		3663059C79A7B330EE668444 /* Pods_NextDaySoftMachinTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8487EF83E38D3EAFDF1008B /* Pods_NextDaySoftMachinTest.framework */; };
+		90358F4A2BC594AE00DC880D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90358F492BC594AE00DC880D /* LoginViewController.swift */; };
+		90358F4C2BC5975F00DC880D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90358F4B2BC5975F00DC880D /* ProductViewController.swift */; };
+		90AF43BC2BC586AE0015B9F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43BB2BC586AE0015B9F8 /* AppDelegate.swift */; };
+		90AF43BE2BC586AE0015B9F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43BD2BC586AE0015B9F8 /* SceneDelegate.swift */; };
+		90AF43C32BC586AE0015B9F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AF43C12BC586AE0015B9F8 /* Main.storyboard */; };
+		90AF43C62BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43C42BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodeld */; };
+		90AF43C82BC586B00015B9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AF43C72BC586B00015B9F8 /* Assets.xcassets */; };
+		90AF43CB2BC586B00015B9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AF43C92BC586B00015B9F8 /* LaunchScreen.storyboard */; };
+		90AF43D62BC586B00015B9F8 /* NextDaySoftMachinTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43D52BC586B00015B9F8 /* NextDaySoftMachinTestTests.swift */; };
+		90AF43E02BC586B00015B9F8 /* NextDaySoftMachinTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43DF2BC586B00015B9F8 /* NextDaySoftMachinTestUITests.swift */; };
+		90AF43E22BC586B00015B9F8 /* NextDaySoftMachinTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43E12BC586B00015B9F8 /* NextDaySoftMachinTestUITestsLaunchTests.swift */; };
+		90AF43F22BC588370015B9F8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AF43F12BC588370015B9F8 /* WelcomeViewController.swift */; };
+		90AF43F42BC589150015B9F8 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AF43F32BC589150015B9F8 /* ColorAssets.xcassets */; };
+		F83A2BBE9C256C9F16631781 /* Pods_NextDaySoftMachinTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B06422156E1D71F7EE478F4 /* Pods_NextDaySoftMachinTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90AF43D22BC586B00015B9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AF43B02BC586AE0015B9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AF43B72BC586AE0015B9F8;
+			remoteInfo = NextDaySoftMachinTest;
+		};
+		90AF43DC2BC586B00015B9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AF43B02BC586AE0015B9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90AF43B72BC586AE0015B9F8;
+			remoteInfo = NextDaySoftMachinTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10698A76B21C440F87FD31DA /* Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		362512A97CDEB92496006479 /* Pods-NextDaySoftMachinTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDaySoftMachinTestTests.release.xcconfig"; path = "Target Support Files/Pods-NextDaySoftMachinTestTests/Pods-NextDaySoftMachinTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B06422156E1D71F7EE478F4 /* Pods_NextDaySoftMachinTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextDaySoftMachinTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFED6D737FC263FFF33FFB8 /* Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7149B9D0D81A06CE6446D31E /* Pods-NextDaySoftMachinTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDaySoftMachinTest.debug.xcconfig"; path = "Target Support Files/Pods-NextDaySoftMachinTest/Pods-NextDaySoftMachinTest.debug.xcconfig"; sourceTree = "<group>"; };
+		875D23F8A05313E1B1EFE42D /* Pods-NextDaySoftMachinTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDaySoftMachinTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NextDaySoftMachinTestTests/Pods-NextDaySoftMachinTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90358F492BC594AE00DC880D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90358F4B2BC5975F00DC880D /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		90AF43B82BC586AE0015B9F8 /* NextDaySoftMachinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextDaySoftMachinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AF43BB2BC586AE0015B9F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90AF43BD2BC586AE0015B9F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90AF43C22BC586AE0015B9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90AF43C52BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NextDaySoftMachinTest.xcdatamodel; sourceTree = "<group>"; };
+		90AF43C72BC586B00015B9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90AF43CA2BC586B00015B9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90AF43CC2BC586B00015B9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90AF43D12BC586B00015B9F8 /* NextDaySoftMachinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextDaySoftMachinTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AF43D52BC586B00015B9F8 /* NextDaySoftMachinTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDaySoftMachinTestTests.swift; sourceTree = "<group>"; };
+		90AF43DB2BC586B00015B9F8 /* NextDaySoftMachinTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextDaySoftMachinTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AF43DF2BC586B00015B9F8 /* NextDaySoftMachinTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDaySoftMachinTestUITests.swift; sourceTree = "<group>"; };
+		90AF43E12BC586B00015B9F8 /* NextDaySoftMachinTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDaySoftMachinTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90AF43F12BC588370015B9F8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		90AF43F32BC589150015B9F8 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		A8E18DE7ABBDA3159C33E376 /* Pods-NextDaySoftMachinTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDaySoftMachinTest.release.xcconfig"; path = "Target Support Files/Pods-NextDaySoftMachinTest/Pods-NextDaySoftMachinTest.release.xcconfig"; sourceTree = "<group>"; };
+		C82A49E9EFDD4D5B0B517B7D /* Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8487EF83E38D3EAFDF1008B /* Pods_NextDaySoftMachinTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextDaySoftMachinTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AF43B52BC586AE0015B9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3663059C79A7B330EE668444 /* Pods_NextDaySoftMachinTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF43CE2BC586B00015B9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83A2BBE9C256C9F16631781 /* Pods_NextDaySoftMachinTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF43D82BC586B00015B9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1535FCED7F860CB7D0A9A4 /* Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AF43AF2BC586AE0015B9F8 = {
+			isa = PBXGroup;
+			children = (
+				90AF43BA2BC586AE0015B9F8 /* NextDaySoftMachinTest */,
+				90AF43D42BC586B00015B9F8 /* NextDaySoftMachinTestTests */,
+				90AF43DE2BC586B00015B9F8 /* NextDaySoftMachinTestUITests */,
+				90AF43B92BC586AE0015B9F8 /* Products */,
+				E3A138CDD9620DB6611D0973 /* Pods */,
+				E624D46CC0CDCA1730E21278 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90AF43B92BC586AE0015B9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43B82BC586AE0015B9F8 /* NextDaySoftMachinTest.app */,
+				90AF43D12BC586B00015B9F8 /* NextDaySoftMachinTestTests.xctest */,
+				90AF43DB2BC586B00015B9F8 /* NextDaySoftMachinTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AF43BA2BC586AE0015B9F8 /* NextDaySoftMachinTest */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43EE2BC586CE0015B9F8 /* AppDelegete */,
+				90AF43EF2BC586E20015B9F8 /* ViewControllers */,
+				90AF43F02BC587250015B9F8 /* StoryBoard */,
+				90AF43C72BC586B00015B9F8 /* Assets.xcassets */,
+				90AF43CC2BC586B00015B9F8 /* Info.plist */,
+				90AF43C42BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodeld */,
+				90AF43F32BC589150015B9F8 /* ColorAssets.xcassets */,
+			);
+			path = NextDaySoftMachinTest;
+			sourceTree = "<group>";
+		};
+		90AF43D42BC586B00015B9F8 /* NextDaySoftMachinTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43D52BC586B00015B9F8 /* NextDaySoftMachinTestTests.swift */,
+			);
+			path = NextDaySoftMachinTestTests;
+			sourceTree = "<group>";
+		};
+		90AF43DE2BC586B00015B9F8 /* NextDaySoftMachinTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43DF2BC586B00015B9F8 /* NextDaySoftMachinTestUITests.swift */,
+				90AF43E12BC586B00015B9F8 /* NextDaySoftMachinTestUITestsLaunchTests.swift */,
+			);
+			path = NextDaySoftMachinTestUITests;
+			sourceTree = "<group>";
+		};
+		90AF43EE2BC586CE0015B9F8 /* AppDelegete */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43BB2BC586AE0015B9F8 /* AppDelegate.swift */,
+				90AF43BD2BC586AE0015B9F8 /* SceneDelegate.swift */,
+			);
+			path = AppDelegete;
+			sourceTree = "<group>";
+		};
+		90AF43EF2BC586E20015B9F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43F12BC588370015B9F8 /* WelcomeViewController.swift */,
+				90358F492BC594AE00DC880D /* LoginViewController.swift */,
+				90358F4B2BC5975F00DC880D /* ProductViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90AF43F02BC587250015B9F8 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				90AF43C92BC586B00015B9F8 /* LaunchScreen.storyboard */,
+				90AF43C12BC586AE0015B9F8 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		E3A138CDD9620DB6611D0973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7149B9D0D81A06CE6446D31E /* Pods-NextDaySoftMachinTest.debug.xcconfig */,
+				A8E18DE7ABBDA3159C33E376 /* Pods-NextDaySoftMachinTest.release.xcconfig */,
+				10698A76B21C440F87FD31DA /* Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.debug.xcconfig */,
+				C82A49E9EFDD4D5B0B517B7D /* Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.release.xcconfig */,
+				875D23F8A05313E1B1EFE42D /* Pods-NextDaySoftMachinTestTests.debug.xcconfig */,
+				362512A97CDEB92496006479 /* Pods-NextDaySoftMachinTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E624D46CC0CDCA1730E21278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8487EF83E38D3EAFDF1008B /* Pods_NextDaySoftMachinTest.framework */,
+				3CFED6D737FC263FFF33FFB8 /* Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests.framework */,
+				3B06422156E1D71F7EE478F4 /* Pods_NextDaySoftMachinTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90AF43B72BC586AE0015B9F8 /* NextDaySoftMachinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AF43E52BC586B00015B9F8 /* Build configuration list for PBXNativeTarget "NextDaySoftMachinTest" */;
+			buildPhases = (
+				83296DD4E134FE131CBB7839 /* [CP] Check Pods Manifest.lock */,
+				90AF43B42BC586AE0015B9F8 /* Sources */,
+				90AF43B52BC586AE0015B9F8 /* Frameworks */,
+				90AF43B62BC586AE0015B9F8 /* Resources */,
+				ABDD47EEC4B46F77E7F4C68D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextDaySoftMachinTest;
+			productName = NextDaySoftMachinTest;
+			productReference = 90AF43B82BC586AE0015B9F8 /* NextDaySoftMachinTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90AF43D02BC586B00015B9F8 /* NextDaySoftMachinTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AF43E82BC586B00015B9F8 /* Build configuration list for PBXNativeTarget "NextDaySoftMachinTestTests" */;
+			buildPhases = (
+				B605FAD4AF90C4FBCE4FA7D7 /* [CP] Check Pods Manifest.lock */,
+				90AF43CD2BC586B00015B9F8 /* Sources */,
+				90AF43CE2BC586B00015B9F8 /* Frameworks */,
+				90AF43CF2BC586B00015B9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AF43D32BC586B00015B9F8 /* PBXTargetDependency */,
+			);
+			name = NextDaySoftMachinTestTests;
+			productName = NextDaySoftMachinTestTests;
+			productReference = 90AF43D12BC586B00015B9F8 /* NextDaySoftMachinTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90AF43DA2BC586B00015B9F8 /* NextDaySoftMachinTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AF43EB2BC586B00015B9F8 /* Build configuration list for PBXNativeTarget "NextDaySoftMachinTestUITests" */;
+			buildPhases = (
+				89404A77421CF11AE0066752 /* [CP] Check Pods Manifest.lock */,
+				90AF43D72BC586B00015B9F8 /* Sources */,
+				90AF43D82BC586B00015B9F8 /* Frameworks */,
+				90AF43D92BC586B00015B9F8 /* Resources */,
+				73D649BFF863B2F306516A85 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AF43DD2BC586B00015B9F8 /* PBXTargetDependency */,
+			);
+			name = NextDaySoftMachinTestUITests;
+			productName = NextDaySoftMachinTestUITests;
+			productReference = 90AF43DB2BC586B00015B9F8 /* NextDaySoftMachinTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AF43B02BC586AE0015B9F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					90AF43B72BC586AE0015B9F8 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					90AF43D02BC586B00015B9F8 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 90AF43B72BC586AE0015B9F8;
+					};
+					90AF43DA2BC586B00015B9F8 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 90AF43B72BC586AE0015B9F8;
+					};
+				};
+			};
+			buildConfigurationList = 90AF43B32BC586AE0015B9F8 /* Build configuration list for PBXProject "NextDaySoftMachinTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AF43AF2BC586AE0015B9F8;
+			productRefGroup = 90AF43B92BC586AE0015B9F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AF43B72BC586AE0015B9F8 /* NextDaySoftMachinTest */,
+				90AF43D02BC586B00015B9F8 /* NextDaySoftMachinTestTests */,
+				90AF43DA2BC586B00015B9F8 /* NextDaySoftMachinTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AF43B62BC586AE0015B9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF43CB2BC586B00015B9F8 /* LaunchScreen.storyboard in Resources */,
+				90AF43C82BC586B00015B9F8 /* Assets.xcassets in Resources */,
+				90AF43F42BC589150015B9F8 /* ColorAssets.xcassets in Resources */,
+				90AF43C32BC586AE0015B9F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF43CF2BC586B00015B9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF43D92BC586B00015B9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73D649BFF863B2F306516A85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83296DD4E134FE131CBB7839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextDaySoftMachinTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89404A77421CF11AE0066752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDD47EEC4B46F77E7F4C68D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDaySoftMachinTest/Pods-NextDaySoftMachinTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NextDaySoftMachinTest/Pods-NextDaySoftMachinTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NextDaySoftMachinTest/Pods-NextDaySoftMachinTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B605FAD4AF90C4FBCE4FA7D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextDaySoftMachinTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AF43B42BC586AE0015B9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90358F4C2BC5975F00DC880D /* ProductViewController.swift in Sources */,
+				90AF43BC2BC586AE0015B9F8 /* AppDelegate.swift in Sources */,
+				90AF43F22BC588370015B9F8 /* WelcomeViewController.swift in Sources */,
+				90AF43BE2BC586AE0015B9F8 /* SceneDelegate.swift in Sources */,
+				90358F4A2BC594AE00DC880D /* LoginViewController.swift in Sources */,
+				90AF43C62BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF43CD2BC586B00015B9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF43D62BC586B00015B9F8 /* NextDaySoftMachinTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AF43D72BC586B00015B9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF43E22BC586B00015B9F8 /* NextDaySoftMachinTestUITestsLaunchTests.swift in Sources */,
+				90AF43E02BC586B00015B9F8 /* NextDaySoftMachinTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90AF43D32BC586B00015B9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AF43B72BC586AE0015B9F8 /* NextDaySoftMachinTest */;
+			targetProxy = 90AF43D22BC586B00015B9F8 /* PBXContainerItemProxy */;
+		};
+		90AF43DD2BC586B00015B9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90AF43B72BC586AE0015B9F8 /* NextDaySoftMachinTest */;
+			targetProxy = 90AF43DC2BC586B00015B9F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90AF43C12BC586AE0015B9F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90AF43C22BC586AE0015B9F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90AF43C92BC586B00015B9F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90AF43CA2BC586B00015B9F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90AF43E32BC586B00015B9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90AF43E42BC586B00015B9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90AF43E62BC586B00015B9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7149B9D0D81A06CE6446D31E /* Pods-NextDaySoftMachinTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NextDaySoftMachinTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.NextDaySoftMachinTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90AF43E72BC586B00015B9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E18DE7ABBDA3159C33E376 /* Pods-NextDaySoftMachinTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NextDaySoftMachinTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.NextDaySoftMachinTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90AF43E92BC586B00015B9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875D23F8A05313E1B1EFE42D /* Pods-NextDaySoftMachinTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.NextDaySoftMachinTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextDaySoftMachinTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NextDaySoftMachinTest";
+			};
+			name = Debug;
+		};
+		90AF43EA2BC586B00015B9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362512A97CDEB92496006479 /* Pods-NextDaySoftMachinTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.NextDaySoftMachinTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextDaySoftMachinTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NextDaySoftMachinTest";
+			};
+			name = Release;
+		};
+		90AF43EC2BC586B00015B9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10698A76B21C440F87FD31DA /* Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.NextDaySoftMachinTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NextDaySoftMachinTest;
+			};
+			name = Debug;
+		};
+		90AF43ED2BC586B00015B9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82A49E9EFDD4D5B0B517B7D /* Pods-NextDaySoftMachinTest-NextDaySoftMachinTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.NextDaySoftMachinTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NextDaySoftMachinTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AF43B32BC586AE0015B9F8 /* Build configuration list for PBXProject "NextDaySoftMachinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF43E32BC586B00015B9F8 /* Debug */,
+				90AF43E42BC586B00015B9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AF43E52BC586B00015B9F8 /* Build configuration list for PBXNativeTarget "NextDaySoftMachinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF43E62BC586B00015B9F8 /* Debug */,
+				90AF43E72BC586B00015B9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AF43E82BC586B00015B9F8 /* Build configuration list for PBXNativeTarget "NextDaySoftMachinTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF43E92BC586B00015B9F8 /* Debug */,
+				90AF43EA2BC586B00015B9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AF43EB2BC586B00015B9F8 /* Build configuration list for PBXNativeTarget "NextDaySoftMachinTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AF43EC2BC586B00015B9F8 /* Debug */,
+				90AF43ED2BC586B00015B9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90AF43C42BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90AF43C52BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodel */,
+			);
+			currentVersion = 90AF43C52BC586AE0015B9F8 /* NextDaySoftMachinTest.xcdatamodel */;
+			path = NextDaySoftMachinTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90AF43B02BC586AE0015B9F8 /* Project object */;
+}

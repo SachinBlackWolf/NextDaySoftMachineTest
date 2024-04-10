@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests : NSObject
+@end
+@implementation PodsDummy_Pods_NextDaySoftMachinTest_NextDaySoftMachinTestUITests
+@end
